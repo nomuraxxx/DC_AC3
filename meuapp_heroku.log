@@ -1,0 +1,35 @@
+2020-10-07T02:19:15.688094+00:00 app[api]: Initial release by user dinomura@gmail.com
+2020-10-07T02:19:15.688094+00:00 app[api]: Release v1 created by user dinomura@gmail.com
+2020-10-07T02:19:15.782513+00:00 app[api]: Enable Logplex by user dinomura@gmail.com
+2020-10-07T02:19:15.782513+00:00 app[api]: Release v2 created by user dinomura@gmail.com
+2020-10-07T02:19:56.000000+00:00 app[api]: Build started by user dinomura@gmail.com
+2020-10-07T02:20:22.333554+00:00 app[api]: Release v3 created by user dinomura@gmail.com
+2020-10-07T02:20:22.333554+00:00 app[api]: Deploy 2759f914 by user dinomura@gmail.com
+2020-10-07T02:20:22.359485+00:00 app[api]: Scaled to web@1:Free by user dinomura@gmail.com
+2020-10-07T02:20:26.286017+00:00 heroku[web.1]: Starting process with command `python /src/primos.py`
+2020-10-07T02:20:28.330748+00:00 app[web.1]: python: can't open file '/src/primos.py': [Errno 2] No such file or directory
+2020-10-07T02:20:28.382872+00:00 heroku[web.1]: Process exited with status 2
+2020-10-07T02:20:28.435270+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-07T02:20:28.438156+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-07T02:20:31.000000+00:00 app[api]: Build succeeded
+2020-10-07T02:20:32.115481+00:00 heroku[web.1]: Starting process with command `python /src/primos.py`
+2020-10-07T02:20:34.838045+00:00 app[web.1]: python: can't open file '/src/primos.py': [Errno 2] No such file or directory
+2020-10-07T02:20:34.907581+00:00 heroku[web.1]: Process exited with status 2
+2020-10-07T02:20:34.977866+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-07T02:26:27.000000+00:00 app[api]: Build started by user dinomura@gmail.com
+2020-10-07T02:26:49.350010+00:00 app[api]: Deploy ed3fdbe5 by user dinomura@gmail.com
+2020-10-07T02:26:49.350010+00:00 app[api]: Release v4 created by user dinomura@gmail.com
+2020-10-07T02:26:49.542551+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-07T02:26:52.263358+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-07T02:26:54.484734+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-07T02:26:54.484767+00:00 app[web.1]: * Environment: production
+2020-10-07T02:26:54.484767+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-07T02:26:54.484802+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-07T02:26:54.484829+00:00 app[web.1]: * Debug mode: off
+2020-10-07T02:26:54.505699+00:00 app[web.1]: * Running on http://0.0.0.0:11211/ (Press CTRL+C to quit)
+2020-10-07T02:26:54.911112+00:00 heroku[web.1]: State changed from starting to up
+2020-10-07T02:26:57.000000+00:00 app[api]: Build succeeded
+2020-10-07T02:27:01.112491+00:00 app[web.1]: 10.63.145.147 - - [07/Oct/2020 02:27:01] "GET / HTTP/1.1" 200 -
+2020-10-07T02:27:01.117541+00:00 heroku[router]: at=info method=GET path="/" host=immense-brook-29963.herokuapp.com request_id=dcd9f0a1-763f-48eb-92f2-1ed81696b031 fwd="45.175.33.225" dyno=web.1 connect=0ms service=7ms status=200 bytes=625 protocol=https
+2020-10-07T02:27:02.245620+00:00 app[web.1]: 10.63.145.147 - - [07/Oct/2020 02:27:02] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-07T02:27:02.248545+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=immense-brook-29963.herokuapp.com request_id=21f582bf-9d0d-453e-bf6f-d11efed39044 fwd="45.175.33.225" dyno=web.1 connect=0ms service=16ms status=404 bytes=379 protocol=https
